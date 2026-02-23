@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dd313db-fb7d-4597-8081-3ddac749a8f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/dependentbot.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/pull_request_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.husky/pre-push" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/fixtures/bdd-fixtures.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/pages/base-page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/pages/identity-page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/steps/bdd-context.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/steps/common.steps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/steps/e2e-passport.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browser-tests/types/test-date.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser-tests/features/e2e-Passport.feature" beforeDir="false" afterPath="$PROJECT_DIR$/browser-tests/features/e2e-Passport.feature" afterDir="false" />
-    </list>
+    <list default="true" id="7dd313db-fb7d-4597-8081-3ddac749a8f3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,18 +18,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Vivektiwari11"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Vivektiwari11&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/govuk-one-login/Integration-E2E-Smoke-Tests.git",
-    "accountId": "c736db82-d7a2-4590-bdf1-dd7b8d672b16"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/govuk-one-login/Integration-E2E-Smoke-Tests.git&quot;,
+    &quot;accountId&quot;: &quot;c736db82-d7a2-4590-bdf1-dd7b8d672b16&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -62,7 +47,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "update-new-tests",
+    "git-widget-placeholder": "Merging update-new-tests",
     "last_opened_file_path": "/Users/vivektiwari/Library/CloudStorage/OneDrive-Deloitte(O365D)/documents/Integration-E2E-Smoke-Tests-main",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
