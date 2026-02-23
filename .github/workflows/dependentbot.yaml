@@ -1,0 +1,45 @@
+ersion: 2
+registries:
+  github-npm:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    username: ${{ secrets.DEPENDABOT_GITHUB_USERNAME }}
+    password: ${{ secrets.DEPENDABOT_GITHUB_TOKEN }}
+updates:
+  - package-ecosystem: "npm"
+    directories:
+      - "/"
+      - "/browser-tests"
+    registries: "*"
+    schedule:
+      interval: daily
+      time: "03:00"
+    target-branch: main
+    labels:
+      - dependabot
+    ignore:
+      - dependency-name: "*"
+        update-types: [ "version-update:semver-patch" ]
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: BAU
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "03:00"
+    target-branch: main
+    labels:
+      - dependabot
+    commit-message:
+      prefix: BAU
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: daily
+      time: "03:00"
+    target-branch: main
+    labels:
+      - dependabot
+    commit-message:
+      prefix: BAU
